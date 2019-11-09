@@ -38,3 +38,7 @@ setup-python:
 	pip3 install web3
 	pip3 install SQLAlchemy
 	pip3 install psycopg2
+
+.PHONY: run-python
+run-python:
+	flask run --host=0.0.0.0

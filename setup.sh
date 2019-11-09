@@ -34,6 +34,6 @@ while IFS= read -r line; do
     ticker=$(echo "$line" | awk '{print $2}')
     price=$(echo "$line" | awk '{print $3}')
     command="INSERT INTO PRICES (date, ticker, price) VALUES ('$date', '$ticker', '$price')"
-    output="psql -c \"$command\""
+    output="psql -d waterloo -c \"$command\""
     echo $output >> commands
 done < prices.txt

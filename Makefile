@@ -29,3 +29,9 @@ imports:
 .PHONY: fmt
 fmt:
 	find . -type f -name '*.go' -exec gofmt -s -w {} \;
+
+.PHONY: setup-python
+setup-python:
+	sudo apt install python3-pip
+	pip3 install Flask
+	pip3 install web3

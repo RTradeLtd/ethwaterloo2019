@@ -16,6 +16,33 @@ create database waterloo;
 grant all privileges on database waterloo to waterloo;
 ```
 
+
+Then we need to create our tables
+```sql
+CREATE TABLE public.contracts
+(
+    id bigserial PRIMARY KEY,
+    contract_address character varying,
+    sponsor_address character varying,
+    finder_address character varying
+)
+WITH (
+    OIDS = FALSE
+);
+
+CREATE TABLE public.prices
+(
+    id bigserial PRIMARY KEY,
+    date date,                         
+    ticker character varying(16),
+    price numeric(5,2)
+)
+WITH (
+    OIDS = FALSE
+);
+``
+
+
 # Links
 
 https://medium.com/coinmonks/deploy-your-smart-contract-directly-from-truffle-with-infura-ba1e1f1d40c2

@@ -30,11 +30,17 @@ Examples:
 
 Using tokens facilities we can create tokens which track the price of anything
 
+# Customizing
+
+The `ConstructorParams` has a `finderAddress` field that can be used to locate the price feed to track
+
 # Questions
 
 * What are custom index's used for?
   
   * How to use different price feeds (ross??)
+  
+  * The answer to this is to use the cli tool, not the dapp
 
 
 

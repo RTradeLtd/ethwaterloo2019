@@ -32,6 +32,9 @@ fmt:
 
 .PHONY: setup-python
 setup-python:
+	sudo apt install postgresql-server-dev-10 postgresql-10
 	sudo apt install python3-pip
 	pip3 install Flask
 	pip3 install web3
+	pip3 install SQLAlchemy
+	pip3 install psycopg2

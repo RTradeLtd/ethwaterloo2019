@@ -1,3 +1,6 @@
 [submodule "protocol"]
 	path = protocol
 	url = https://github.com/UMAprotocol/protocol.git
+[submodule "backend-api"]
+	path = backend-api
+	url = https://github.com/EndymionJkb/waterloo.git

@@ -4,3 +4,6 @@
 [submodule "backend-api"]
 	path = backend-api
 	url = https://github.com/EndymionJkb/waterloo.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/mahanteshsc/d-options-Trade.git

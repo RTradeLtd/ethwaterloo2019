@@ -40,7 +40,7 @@ CREATE TABLE public.prices
 WITH (
     OIDS = FALSE
 );
-``
+```
 
 
 # Links

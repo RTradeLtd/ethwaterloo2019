@@ -1,0 +1,86 @@
+[
+  {
+    "contractName": "Migrations",
+    "address": "0xB02CB5B3Fe9Faf2C9b9e765e1acf13689A979B81"
+  },
+  {
+    "contractName": "Finder",
+    "address": "0xa675DE77b92D1BffAbDf7eDC058bE12813f187b9"
+  },
+  {
+    "contractName": "VotingToken",
+    "address": "0xa293FdBEd1d5e0aBF7FD92Bba6dfad7FeE9b8b76"
+  },
+  {
+    "contractName": "Voting",
+    "address": "0x385410eA4FF9c4C9df71170684517522CbAf1012"
+  },
+  {
+    "contractName": "Registry",
+    "address": "0x4cd6d5B61722A7Ae83c9298dA6f00ad0Abb1BC46"
+  },
+  {
+    "contractName": "ManualPriceFeed",
+    "address": "0x500be3C9013C079C97e3c42E1b48E1d064ACf508"
+  },
+  {
+    "contractName": "Migrations",
+    "address": "0x6EAfea0053F59413eD885122f85B5CaE62968FFA"
+  },
+  {
+    "contractName": "Finder",
+    "address": "0xbA7794AF9Ee637AbF4c36348aA29247A582EE4D3"
+  },
+  {
+    "contractName": "VotingToken",
+    "address": "0x4d0071AfFd5c8F8afA89B280FfEfaB14e692FFa4"
+  },
+  {
+    "contractName": "Voting",
+    "address": "0x25D54F681a865d4E573502F89774010ec18d0536"
+  },
+  {
+    "contractName": "Registry",
+    "address": "0xC20a5D6F18Eb09444BCddCA5E083E64FC6d20D7F"
+  },
+  {
+    "contractName": "ManualPriceFeed",
+    "address": "0xa8E7dcC596B225E0E0E20BB94484BCD5a182c092"
+  },
+  {
+    "contractName": "FinancialContractsAdmin",
+    "address": "0xbe006D3D1Dcf4Ba3bAa39ab37fC2120EB6c16a55"
+  },
+  {
+    "contractName": "Store",
+    "address": "0x223AD4230Bc01335C73F21b59FAD65e9eEf09291"
+  },
+  {
+    "contractName": "TokenizedDerivativeUtils",
+    "address": "0x045C5C493a2A563988Fd2d3845E356df775c6de8"
+  },
+  {
+    "contractName": "AddressWhitelist",
+    "address": "0xD70faFbf575d2d4A6CD94bB07ACB85644554bec4"
+  },
+  {
+    "contractName": "AddressWhitelist",
+    "address": "0x3AA38695a08c6e0C0C236cD595D132a3B373b8bd"
+  },
+  {
+    "contractName": "TokenizedDerivativeCreator",
+    "address": "0xeE0D5201a971F962955954996391cc15B479DF4C"
+  },
+  {
+    "contractName": "TestnetERC20",
+    "address": "0xbF7A7169562078c96f0eC1A8aFD6aE50f12e5A99"
+  },
+  {
+    "contractName": "LeveragedReturnCalculator",
+    "address": "0x09724EF6F459f259243E6Bc6dC69B79fa2605796"
+  },
+  {
+    "contractName": "LeveragedReturnCalculator",
+    "address": "0x34820426Bc27149090eCF0501029bEAAFFAd1C6f"
+  }
+]

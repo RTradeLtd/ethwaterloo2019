@@ -43,6 +43,9 @@ WITH (
 ```
 
 
+To add new identifiers to the approved price feed contract see [here](https://docs.umaproject.org/uma/explainers/price-feed-configuration.html):   
+
+
 # Links
 
 https://medium.com/coinmonks/deploy-your-smart-contract-directly-from-truffle-with-infura-ba1e1f1d40c2

@@ -67,3 +67,10 @@ truffle console --network kovan_mnemonic
 deploying tokens will not work, because the price feed contract hasn't yet had any prices configured
 
 
+
+# Modified Tokenized Derivative
+
+To deploy we need the following params
+```
+const params = { priceFeedAddress: priceFeed.address, defaultPenalty: web3.utils.toWei("0.5", "ether"), supportedMove: web3.utils.toWei("0.1", "ether"), product: web3.utils.utf8ToHex("BTC/USD"), fixedYearlyFee: web3.utils.toWei("0.01", "ether"), disputeDeposit: web3.utils.toWei("0.5", "ether"), returnCalculator: noLeverageCalculator.address, startingTokenPrice: web3.utils.toWei("1", "ether"), expiry: 0, marginCurrency: "0x0000000000000000000000000000000000000000", withdrawLimit: web3.utils.toWei("0.33", "ether"), returnType: "1", startingUnderlyingPrice: "0", name: "Name", symbol: "SYM", strikePrice: web3.utils.toWei("0.1", "ether")}
+```
